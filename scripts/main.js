@@ -3,9 +3,9 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/logo_dos.png') {
-      myImage.setAttribute('src','Images/firefox2.png');
+      myImage.setAttribute('src','https://github.com/Flacoleo/Ananassi/blob/main/Images/firefox2.png?raw=true');
     } else {
-      myImage.setAttribute('src','Images/logo_dos.png');
+      myImage.setAttribute('src','https://github.com/Flacoleo/Ananassi/blob/main/Images/logo_dos.png?raw=true');
     }
 }
 
