@@ -3,9 +3,9 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/logo_dos.png') {
-      myImage.setAttribute('src','images/firefox2.png');
+      myImage.setAttribute('src','Images/firefox2.png');
     } else {
-      myImage.setAttribute('src','images/logo_dos.png');
+      myImage.setAttribute('src','Images/logo_dos.png');
     }
 }
 
